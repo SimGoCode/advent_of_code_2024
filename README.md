@@ -19,10 +19,10 @@ Whether you're a beginner or an experienced programmer, it's a fantastic opportu
 ## 📂 Repository Structure
 Each folder corresponds to a specific day of Advent of Code 2024, containing files for each part of the challenge.
 
-- **`part1.py`**: Solution for Part 1 of the challenge.
-- **`part2.py`**: Solution for Part 2 of the challenge.
-- **`dayx.py`**: Solution for both parts of the challenge.
-- **`day_x_input.txt`**: The input data provided for the challenge.
+- **`part_1.py`**: Solution for Part 1 of the challenge.
+- **`part_2.py`**: Solution for Part 2 of the challenge.
+- **`day_x.py`**: Solution for both parts of the challenge.
+- **`input.txt`**: The input data provided for the challenge.
 
 
 ## 🎯 Goals
