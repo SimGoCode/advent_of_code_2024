@@ -10,7 +10,7 @@ list_1 = []
 list_2 = []
 
 # Opens the text file puzzle input and stores the content in the lists.
-with open("day_1_input.txt") as file:
+with open("input.txt") as file:
     for line in file:
         element_list_1, element_list_2 = line.strip().split("   ")
         list_1.append(int(element_list_1))
@@ -40,7 +40,7 @@ print(f"The total distance between lists is: {sum_distance}")
 # Opens the text file puzzle input and stores the content in the emptied lists
 list_1 = []
 list_2 = []
-with open("day_1_input.txt") as file:
+with open("input.txt") as file:
     for line in file:
         element_list_1, element_list_2 = line.strip().split("   ")
         list_1.append(int(element_list_1))
