@@ -50,7 +50,7 @@ for report in report_list:
         safe_reports_number +=1
 
     #Part Two Starts here :)
-    #Comments incomming
+    #If the report is not safe, creates a list with every iteration of the report with one element deleted.
     if not report_is_safe:
         dampened_report_list = []
         for a in range(len(report)):
@@ -58,6 +58,7 @@ for report in report_list:
 
         damp_report_safe_counter = 0
 
+        #Tries to see if one or many of the sub-reports are safe, if so, the initial report is considered safe
         for damp_report in dampened_report_list:
             damp_report_is_safe = True
 
@@ -84,6 +85,7 @@ for report in report_list:
             # After calidation loops, adds one to the counter if the report is considered safe
             if damp_report_is_safe:
                 damp_report_safe_counter += 1
+        # If at least 1 of the sub-report is safe, then the report is deemed safe and added to the total
         if damp_report_safe_counter > 0:
             safe_reports_number += 1
 
